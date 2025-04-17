@@ -3,11 +3,12 @@
 # Phasor & Space Vector Definition
 
 
-A **phasor** is a **complex number** that represents the **amplitude** and **phase angle** of a sinusoidal function (like voltage $v(t)$ or current $i(t)$) at a **single, specific frequency**. The phasor $\mathbf{V}$ corresponding to $v(t) = V_m \cos(\omega t + \phi)$ is:
+A **phasor** is a **complex number** that represents the **amplitude** and **phase angle** of a sinusoidal function (like voltage $v(t)$ or current $i(t))$ at a **single, specific frequency**. The phasor $\mathbf{V}$ corresponding to $v(t) = V_m \cos(\omega t + \phi)$ is:
 
 $$
 \mathbf{V} = V_m e^{j\phi}
 $$
+
 A **space vector** is a single **rotating vector** in a 2D complex plane. It represents the combination of 3 time quantities & spatial quantities (voltages or currents that add to zero and complex spatial operators).
 The **voltage space vector**, denoted as $\mathbf{v}_s(t)$, is defined by combining $v_a(t), v_b(t),$ and $v_c(t)$ phase voltages with complex spatial operators:
 
