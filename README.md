@@ -15,6 +15,7 @@ This repository contains LaTeX technical documents with mathematical notations.
 Testing: modifying the readme file for the second time. 
 Also, adding the guideline on writing latex in VSCode and push to Github 
 
+# Modified the handle and trying to commit
 
 # Electric Motors Fundamentals
 
