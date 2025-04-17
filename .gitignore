@@ -1,3 +1,11 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+*.venv/
+*.env/
+
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
