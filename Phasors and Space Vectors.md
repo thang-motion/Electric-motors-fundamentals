@@ -3,7 +3,7 @@
 # Phasor & Space Vector Definition
 
 
-A **phasor** is a **complex number** that represents the **amplitude** and **phase angle** of a sinusoidal function (like voltage $v(t)$ or current $i(t))$ at a **single, specific frequency**. The phasor $\mathbf{V}$ corresponding to $v(t) = V_m \cos(\omega t + \phi)$ is:
+A **phasor** is a **complex number** that represents the **amplitude** and **phase angle** of a sinusoidal function (like voltage $v(t)$ or current $i(t)$) at a **single, specific frequency**. The phasor $\mathbf{V}$ corresponding to $v(t) = V_m \cos(\omega t + \phi)$ is:
 
 $$
 \mathbf{V} = V_m e^{j\phi}
