@@ -35,6 +35,10 @@ In rectangular form, this is:
 A_r \cos\theta_r + j A_r \sin\theta_r = (A_1 \cos\theta_1 + A_2 \cos\theta_2) + j (A_1 \sin\theta_1 + A_2 \sin\theta_2)
 \]
 
+$x^2 + y^2 = z^2$
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
 ### Space Vector Rotation
 A rotating space vector at frequency \( f \) (e.g., 50 Hz) can be expressed as:
 
