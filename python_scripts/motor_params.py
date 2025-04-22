@@ -2,8 +2,8 @@ from fractions import Fraction
 from math import gcd
 
 # Define motor general parameters
-Q = 12 # No. of slots
-p = 10 # "p" is the no. of poles NOTE: Pyrhonen use "p" as Pole-pair
+Q = 24 # No. of slots
+p = 28 # "p" is the no. of poles NOTE: Pyrhonen use "p" as Pole-pair
 PP = int(p/2) # No. of pole-pairs
 m = 3 # no. phases
 t = gcd(Q,PP) # largest common divider between Q slot and Pole-pairs PP according to Pyrhonen
@@ -11,7 +11,7 @@ t = gcd(Q,PP) # largest common divider between Q slot and Pole-pairs PP accordin
 print("t = " + str(t) +" & Pole-pairs = " + str(PP))
 
 
-y = 5 # the actual winding pitch => Corresponding to MCAD throw value
+y = 1 # the actual winding pitch => Corresponding to MCAD throw value
 yQ = Q/(p) # the no. slots/ per pole
 
 # alpha_u (degrees): is the angle between voltages in the slots in electrical degrees
