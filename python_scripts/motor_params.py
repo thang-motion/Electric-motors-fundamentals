@@ -2,8 +2,8 @@ from fractions import Fraction
 from math import gcd
 
 # Define motor general parameters
-Q = 24 # No. of slots
-p = 28 # "p" is the no. of poles NOTE: Pyrhonen use "p" as Pole-pair
+Q = 12 # No. of slots
+p = 10 # "p" is the no. of poles NOTE: Pyrhonen use "p" as Pole-pair
 PP = int(p/2) # No. of pole-pairs
 m = 3 # no. phases
 t = gcd(Q,PP) # largest common divider between Q slot and Pole-pairs PP according to Pyrhonen
