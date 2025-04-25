@@ -1,4 +1,8 @@
-# Phasor diagram - 12-Slot/ 10-Pole/ Double-layer/ Concentrated winding
+# Winding diagram - 12-Slot/ 10-Pole/ Double-layer/ Concentrated winding
+
+## From phasor diagram to winding diagram
+
+![Winding diagram](concentrated_12s10p/Winding_diagram_12S10P_double_layers.png)
 
 **Inputs**:
 - `Q` (int): Total number of slots in the motor (e.g., 12).
